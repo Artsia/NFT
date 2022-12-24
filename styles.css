@@ -3,6 +3,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@700&family=Outfit:wght@300;400;600&display=swap');
 
+/*Media queries*/
+
+@media only screen and (max-width: 375px) {
+    body {
+        width: fit-content;
+        height: fit-content;
+        background-color: rgba(0, 0, 139, 0.453) ;
+    }
+  }
+
+
+
 
 * {
     box-sizing: border-box;
