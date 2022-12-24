@@ -1,0 +1,139 @@
+
+/*imports*/
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@700&family=Outfit:wght@300;400;600&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    height: 1000px;
+    align-items: center;
+    padding: 0%;
+    margin: 0%;
+}
+
+h3{ font-family: 'Outfit';}
+
+p {
+    font-size: 18px;
+    font-family: 'Outfit';
+}
+
+
+.container {
+    display: block;
+    height: 630px;
+    width: 330px;
+    padding: 20px;
+    background-color:hsl(216, 50%, 16%);
+    box-shadow: -15px 15px hsl(218, 57%, 8%);
+    border-radius: 3%;
+}
+
+.avatar-container {
+    border-radius: 3%;
+}
+
+#avatar {
+    height: 30%;
+    width: 100%;
+    border-radius: 3%;
+}
+
+.avatar-info {
+    color: White;
+}
+
+.avatar-info p {
+    color: hsl(215, 51%, 70%);
+}
+
+.date-time-container {
+    display: flex;
+}
+
+.time-container {
+    display: flex;
+    color: cyan;
+    width: 50%;
+    height: 50px;
+
+}
+
+.time-container img {
+    display: flex;
+    justify-content: start;
+    height: 80%;
+    padding-right: 5px;
+
+}
+
+
+
+.date-container {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    color: hsl(215, 51%, 70%);
+
+}
+
+
+.date-container img {
+    padding-right: 5px;
+    height: 80%;
+    /* height: 40px;*/
+}
+
+.date-container p {
+    font-size: 18px;
+}
+
+
+.person-icon-container {
+    display: flex;
+    align-items: center;
+    /*border: 1px solid red;*/
+    height: 120px;
+}
+
+.person-flex-container {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid hsl(215, 51%, 70%);
+    height: 70px;
+    width: 100%;
+    
+    padding: 5px;
+
+}
+
+#person-avatar {
+
+    margin-right: 35px;
+    width: 35px;
+    height: 35px;
+    border: 1px solid hsl(215, 51%, 70%);
+    border-radius: 100%;
+
+}
+
+.person-flex-container p {
+
+    color: hsl(215, 51%, 70%);
+    
+}
+
+.person-flex-container p em {
+    color: white;
+}
+
+#footer{
+    margin-top:50px;
+}
