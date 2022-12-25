@@ -6,20 +6,14 @@
 /*Media queries*/
 
 @media only screen and (max-width: 375px) {
-    html {
-        display:flex;
-         justify-content: center;
-         align-items: center;
-        height:375px;
-    }
-    
+   
     body {
       
         width: fit-content;
         height: fit-content;
-        background-color: rgba(0, 0, 139, 0.453) ;
+        background-color: blue ;
     }
-  }
+}
 
 
 
