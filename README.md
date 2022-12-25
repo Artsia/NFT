@@ -28,7 +28,7 @@ Click on screenshot.jpg file
 
 ### Links
 
-- Solution URL: https://github.com/Artsia/NFT-phillip-version
+- Solution URL: https://github.com/Artsia/NFT
 - Live Site URL:  https://nft-phillip-version.netlify.app/
 
 ## My process
