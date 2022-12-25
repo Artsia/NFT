@@ -5,14 +5,12 @@
 
 /*Media queries*/
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 375px) {
    
     .block-container {
        margin: 100px;
       
-        width: fit-content;
-        height: fit-content;
-        background-color: blue ;
+    
     }
 }
 
