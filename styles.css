@@ -137,3 +137,21 @@ p {
 #footer{
     margin-top:50px;
 }
+
+
+/*Media queries*/
+
+
+/*@media screen  and (max-width: 375px){
+    .block-container{
+        width: fit-content;
+        height: fit-content;
+        background-color: white;
+    }
+}*/
+
+@media only screen and (max-width: 760px) {
+    .block-container {
+        margin: 50px;
+    }
+  }
