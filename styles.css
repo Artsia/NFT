@@ -3,6 +3,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@700&family=Outfit:wght@300;400;600&display=swap');
 
+/*Media queries*/
+
+@media only screen and (max-width: 768px) {
+   
+    .block-container {
+       margin: 100px;
+        
+    }
+}
+
+
+
 
 * {
     box-sizing: border-box;
@@ -137,21 +149,3 @@ p {
 #footer{
     margin-top:50px;
 }
-
-
-/*Media queries*/
-
-
-/*@media screen  and (max-width: 375px){
-    .block-container{
-        width: fit-content;
-        height: fit-content;
-        background-color: white;
-    }
-}*/
-
-@media only screen and (max-width: 760px) {
-    .block-container {
-        margin: 50px;
-    }
-  }
