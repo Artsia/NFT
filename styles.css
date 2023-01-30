@@ -3,15 +3,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@700&family=Outfit:wght@300;400;600&display=swap');
 
-/*Media queries*/
-
-@media only screen and (max-width: 768px) {
-   
-    .block-container {
-       margin: 100px;
-        
-    }
-}
 
 
 
@@ -19,7 +10,6 @@
 * {
     box-sizing: border-box;
 }
-
 body {
     background-color:hsl(217, 54%, 11%);
     display: flex;
